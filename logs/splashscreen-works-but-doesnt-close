@@ -1,0 +1,339 @@
+--------- beginning of /dev/log/system
+I/ActivityManager(  564): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.splashscreenbug/.MainActivity} from pid 754
+--------- beginning of /dev/log/main
+D/dalvikvm( 3028): Late-enabling CheckJNI
+I/ActivityManager(  564): Start proc com.splashscreenbug for activity com.splashscreenbug/.MainActivity: pid=3028 uid=10061 gids={50061, 3003, 1028, 1015}
+V/fb-UnpackingSoSource( 3028): locked dso store /data/data/com.splashscreenbug/lib-main
+V/fb-UnpackingSoSource( 3028): deps mismatch on deps store: regenerating
+V/fb-UnpackingSoSource( 3028): so store dirty: regenerating
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libfb.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libfolly_json.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libglog.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libglog_init.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libgnustl_shared.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libicu_common.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libimagepipeline.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libjsc.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libprivatedata.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libreactnativejni.so: deferring to libdir
+D/ApkSoSource( 3028): not allowing consideration of lib/x86/libyoga.so: deferring to libdir
+V/fb-UnpackingSoSource( 3028): regenerating DSO store com.facebook.soloader.ApkSoSource
+V/fb-UnpackingSoSource( 3028): starting syncer worker
+V/fb-UnpackingSoSource( 3028): releasing dso store lock for /data/data/com.splashscreenbug/lib-main (from syncer thread)
+V/fb-UnpackingSoSource( 3028): not releasing dso store lock for /data/data/com.splashscreenbug/lib-main (syncer thread started)
+I/dalvikvm( 3028): Could not find method android.app.Activity.requestPermissions, referenced from method com.facebook.react.ReactActivityDelegate.requestPermissions
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 74: Landroid/app/Activity;.requestPermissions ([Ljava/lang/String;I)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0006
+D/dalvikvm( 3028): GC_CONCURRENT freed 191K, 8% free 3044K/3296K, paused 5ms+2ms, total 10ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 162K, 13% free 2897K/3296K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 5.488MB for 2731532-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed <1K, 7% free 5564K/5964K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_CONCURRENT freed <1K, 7% free 5564K/5964K, paused 0ms+0ms, total 1ms
+D/ReactNative( 3028): ReactInstanceManager.ctor()
+D/ReactNative( 3028): ReactInstanceManager.createReactContextInBackground()
+D/ReactNative( 3028): ReactInstanceManager.recreateReactContextInBackgroundInner()
+W/dalvikvm( 3028): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+W/dalvikvm( 3028): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+W/unknown:InspectorPackagerConnection( 3028): Couldn't connect to packager, will silently retry
+I/dalvikvm( 3028): Could not find method java.nio.file.Files.newOutputStream, referenced from method okio.Okio.sink
+W/dalvikvm( 3028): VFY: unable to resolve static method 29334: Ljava/nio/file/Files;.newOutputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x000a
+W/dalvikvm( 3028): VFY: unable to find class referenced in signature (Ljava/nio/file/Path;)
+W/dalvikvm( 3028): VFY: unable to find class referenced in signature ([Ljava/nio/file/OpenOption;)
+I/dalvikvm( 3028): Could not find method java.nio.file.Files.newInputStream, referenced from method okio.Okio.source
+W/dalvikvm( 3028): VFY: unable to resolve static method 29333: Ljava/nio/file/Files;.newInputStream (Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x000a
+D/libEGL  ( 3028): loaded /system/lib/egl/libEGL_genymotion.so
+D/        ( 3028): HostConnection::get() New Host Connection established 0xb92d9a78, tid 3028
+D/libEGL  ( 3028): loaded /system/lib/egl/libGLESv1_CM_genymotion.so
+D/libEGL  ( 3028): loaded /system/lib/egl/libGLESv2_genymotion.so
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+E/OpenGLRenderer( 3028): Getting MAX_TEXTURE_SIZE from GradienCache
+E/OpenGLRenderer( 3028): MAX_TEXTURE_SIZE: 16384
+E/OpenGLRenderer( 3028): Getting MAX_TEXTURE_SIZE from Caches::initConstraints()
+E/OpenGLRenderer( 3028): MAX_TEXTURE_SIZE: 16384
+D/OpenGLRenderer( 3028): Enabling debug mode 0
+W/unknown:ReactNative( 3028): Packager connection already open, nooping.
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+I/ActivityManager(  564): Displayed com.splashscreenbug/.MainActivity: +413ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 469K, 9% free 5929K/6472K, paused 1ms+3ms, total 6ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 688K, 14% free 6006K/6976K, paused 3ms, total 3ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 148K, 13% free 6079K/6976K, paused 1ms, total 1ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 133K, 15% free 6144K/7176K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 6.342MB for 302638-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 197K, 17% free 6243K/7472K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 11K, 17% free 6243K/7472K, paused 4ms, total 4ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 6.583MB for 453954-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 295K, 20% free 6391K/7916K, paused 6ms, total 6ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 12K, 20% free 6391K/7916K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 6.944MB for 680928-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 0K, 18% free 7056K/8584K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 448K, 23% free 6612K/8584K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 665K, 20% free 6871K/8584K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 307K, 17% free 7179K/8584K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 7.365MB for 315222-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 1231K, 30% free 6255K/8892K, paused 3ms, total 3ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 971K, 28% free 6408K/8892K, paused 1ms+0ms, total 3ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 1097K, 27% free 6498K/8892K, paused 1ms+0ms, total 2ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 618K, 24% free 6777K/8892K, paused 1ms, total 1ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 292K, 23% free 6919K/8892K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 425K, 22% free 6946K/8892K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 150K, 21% free 7097K/8892K, paused 1ms, total 1ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 1385K, 24% free 6794K/8892K, paused 10ms, total 10ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 214K, 23% free 6900K/8892K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 200K, 22% free 6995K/8892K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 287K, 20% free 7138K/8892K, paused 2ms, total 2ms
+I/dalvikvm-heap( 3028): Grow heap (frag case) to 7.375MB for 368674-byte allocation
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 427K, 24% free 7070K/9256K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 1459K, 25% free 7023K/9256K, paused 1ms+0ms, total 6ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 1218K, 23% free 7191K/9256K, paused 2ms+1ms, total 4ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 1308K, 21% free 7334K/9256K, paused 0ms+0ms, total 2ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 3028): GC_CONCURRENT freed 1350K, 20% free 7481K/9256K, paused 1ms+0ms, total 2ms
+D/dalvikvm( 3028): WAIT_FOR_CONCURRENT_GC blocked 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 1190K, 18% free 7621K/9256K, paused 3ms, total 3ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 1222K, 17% free 7774K/9256K, paused 2ms, total 2ms
+D/dalvikvm( 3028): GC_FOR_ALLOC freed 1321K, 17% free 7905K/9468K, paused 3ms, total 3ms
+D/ReactNative( 3028): ReactInstanceManager.onJSBundleLoadedFromServer()
+D/ReactNative( 3028): ReactInstanceManager.recreateReactContextInBackground()
+D/ReactNative( 3028): ReactInstanceManager.runCreateReactContextOnNewThread()
+D/dalvikvm( 3028): Trying to load lib /data/app-lib/com.splashscreenbug-1/libreactnativejni.so 0xa4f991b8
+D/dalvikvm( 3028): Added shared lib /data/app-lib/com.splashscreenbug-1/libreactnativejni.so 0xa4f991b8
+D/dalvikvm( 3028): Trying to load lib /data/app-lib/com.splashscreenbug-1/libfb.so 0xa4f991b8
+D/dalvikvm( 3028): Added shared lib /data/app-lib/com.splashscreenbug-1/libfb.so 0xa4f991b8
+D/dalvikvm( 3028): Trying to load lib /data/app-lib/com.splashscreenbug-1/libfb.so 0xa4f991b8
+D/dalvikvm( 3028): Shared lib '/data/app-lib/com.splashscreenbug-1/libfb.so' already loaded in same CL 0xa4f991b8
+I/dalvikvm( 3028): threadid=20: recursive native library load attempt (/data/app-lib/com.splashscreenbug-1/libfb.so)
+D/ReactNative( 3028): ReactInstanceManager.createReactContext()
+I/dalvikvm( 3028): Could not find method android.view.View.setElevation, referenced from method com.facebook.react.uimanager.BaseViewManager.setElevation
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15364: Landroid/view/View;.setElevation (F)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm( 3028): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.facebook.react.views.webview.ReactWebViewManager.setMixedContentMode
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15912: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0015
+I/dalvikvm( 3028): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.facebook.react.views.webview.ReactWebViewManager.setMixedContentMode
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15912: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0026
+I/dalvikvm( 3028): Could not find method android.webkit.WebSettings.setMixedContentMode, referenced from method com.facebook.react.views.webview.ReactWebViewManager.setMixedContentMode
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15912: Landroid/webkit/WebSettings;.setMixedContentMode (I)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0037
+I/dalvikvm( 3028): Could not find method android.webkit.CookieManager.setAcceptThirdPartyCookies, referenced from method com.facebook.react.views.webview.ReactWebViewManager.setThirdPartyCookiesEnabled
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15894: Landroid/webkit/CookieManager;.setAcceptThirdPartyCookies (Landroid/webkit/WebView;Z)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x000a
+I/dalvikvm( 3028): Could not find method com.facebook.react.views.view.ReactViewGroup.drawableHotspotChanged, referenced from method com.facebook.react.views.view.ReactViewManager.receiveCommand
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 27917: Lcom/facebook/react/views/view/ReactViewGroup;.drawableHotspotChanged (FF)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x002d
+I/dalvikvm( 3028): Could not find method com.facebook.react.views.view.ReactViewGroup.setForeground, referenced from method com.facebook.react.views.view.ReactViewManager.setNativeForeground
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 27964: Lcom/facebook/react/views/view/ReactViewGroup;.setForeground (Landroid/graphics/drawable/Drawable;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0003
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+D/dalvikvm( 3028): GC_CONCURRENT freed 1406K, 16% free 8100K/9564K, paused 1ms+1ms, total 5ms
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.webview.ReactWebViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+W/unknown:ViewManagerPropertyUpdater( 3028): Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+I/dalvikvm( 3028): Could not find method android.webkit.CookieManager.setCookie, referenced from method com.facebook.react.modules.network.ForwardingCookieHandler.addCookieAsync
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15896: Landroid/webkit/CookieManager;.setCookie (Ljava/lang/String;Ljava/lang/String;Landroid/webkit/ValueCallback;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0005
+I/dalvikvm( 3028): Could not find method android.webkit.CookieManager.removeAllCookies, referenced from method com.facebook.react.modules.network.ForwardingCookieHandler.clearCookiesAsync
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15892: Landroid/webkit/CookieManager;.removeAllCookies (Landroid/webkit/ValueCallback;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0009
+I/dalvikvm( 3028): Could not find method android.webkit.CookieManager.flush, referenced from method com.facebook.react.modules.network.ForwardingCookieHandler$CookieSaver.flush
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 15888: Landroid/webkit/CookieManager;.flush ()V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0006
+I/dalvikvm( 3028): Could not find method android.content.Context.checkSelfPermission, referenced from method com.facebook.react.modules.permissions.PermissionsModule.checkPermission
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 298: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0028
+I/dalvikvm( 3028): Could not find method android.content.Context.checkSelfPermission, referenced from method com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 298: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x003f
+I/dalvikvm( 3028): Could not find method android.content.Context.checkSelfPermission, referenced from method com.facebook.react.modules.permissions.PermissionsModule.requestPermission
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 298: Landroid/content/Context;.checkSelfPermission (Ljava/lang/String;)I
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0028
+D/ReactNative( 3028): Initializing React Xplat Bridge.
+D/ReactNative( 3028): Initializing React Xplat Bridge before initializeBridge
+D/ReactNative( 3028): Initializing React Xplat Bridge after initializeBridge
+D/ReactNative( 3028): CatalystInstanceImpl.runJSBundle()
+D/ReactNative( 3028): ReactInstanceManager.setupReactContext()
+D/ReactNative( 3028): CatalystInstanceImpl.initialize()
+I/dalvikvm( 3028): Could not find method android.provider.Settings.canDrawOverlays, referenced from method com.facebook.react.devsupport.DebugOverlayController.permissionCheck
+W/dalvikvm( 3028): VFY: unable to resolve static method 1423: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x0006
+I/dalvikvm( 3028): Could not find method android.provider.Settings.canDrawOverlays, referenced from method com.facebook.react.devsupport.DebugOverlayController.requestPermission
+W/dalvikvm( 3028): VFY: unable to resolve static method 1423: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x0006
+W/unknown:ReactNative( 3028): Packager connection already open, nooping.
+D/ReactNative( 3028): ReactInstanceManager.attachRootViewToInstance()
+D/dalvikvm( 3028): Trying to load lib /data/app-lib/com.splashscreenbug-1/libyoga.so 0xa4f991b8
+D/dalvikvm( 3028): Added shared lib /data/app-lib/com.splashscreenbug-1/libyoga.so 0xa4f991b8
+I/dalvikvm( 3028): Could not find method android.widget.ImageView.<init>, referenced from method com.facebook.drawee.view.DraweeView.<init>
+W/dalvikvm( 3028): VFY: unable to resolve direct method 16155: Landroid/widget/ImageView;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x70 at 0x0000
+I/dalvikvm( 3028): Could not find method com.facebook.drawee.view.DraweeView.getImageTintList, referenced from method com.facebook.drawee.view.DraweeView.init
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 18725: Lcom/facebook/drawee/view/DraweeView;.getImageTintList ()Landroid/content/res/ColorStateList;
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0015
+I/ReactNativeJS( 3028): Running application "splashscreenbug" with appParams: {"rootTag":1}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+I/dalvikvm( 3028): Could not find method android.text.StaticLayout$Builder.obtain, referenced from method com.facebook.react.views.text.ReactTextShadowNode$1.measure
+W/dalvikvm( 3028): VFY: unable to resolve static method 14832: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x008c
+I/dalvikvm( 3028): Could not find method android.text.StaticLayout$Builder.obtain, referenced from method com.facebook.react.views.text.ReactTextShadowNode$1.measure
+W/dalvikvm( 3028): VFY: unable to resolve static method 14832: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+D/dalvikvm( 3028): VFY: replacing opcode 0x71 at 0x0106
+I/dalvikvm( 3028): Could not find method com.facebook.react.views.text.ReactTextView.getBreakStrategy, referenced from method com.facebook.react.views.text.ReactTextView.setText
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 27365: Lcom/facebook/react/views/text/ReactTextView;.getBreakStrategy ()I
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0058
+W/dalvikvm( 3028): VFY: unable to find class referenced in signature (Landroid/graphics/Outline;)
+I/dalvikvm( 3028): Could not find method android.graphics.drawable.Drawable.getOutline, referenced from method com.facebook.react.views.view.ReactViewBackgroundDrawable.getOutline
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 867: Landroid/graphics/drawable/Drawable;.getOutline (Landroid/graphics/Outline;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6f at 0x0006
+I/dalvikvm( 3028): Could not find method android.graphics.Outline.setConvexPath, referenced from method com.facebook.react.views.view.ReactViewBackgroundDrawable.getOutline
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 700: Landroid/graphics/Outline;.setConvexPath (Landroid/graphics/Path;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x0022
+I/dalvikvm( 3028): Could not find method android.graphics.Outline.setRect, referenced from method com.facebook.react.views.view.ReactViewBackgroundDrawable.getOutline
+W/dalvikvm( 3028): VFY: unable to resolve virtual method 701: Landroid/graphics/Outline;.setRect (Landroid/graphics/Rect;)V
+D/dalvikvm( 3028): VFY: replacing opcode 0x6e at 0x002a
+D/dalvikvm( 3028): GC_CONCURRENT freed 1235K, 14% free 8501K/9796K, paused 4ms+1ms, total 10ms
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1955K, 31% free 9194K/13256K, paused 6ms, total 6ms
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm(  564): GC_CONCURRENT freed 1200K, 29% free 9492K/13256K, paused 1ms+1ms, total 8ms
+I/ActivityManager(  564): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 624
+W/EGL_genymotion(  624): eglSurfaceAttrib not implemented
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+I/ActivityManager(  564): Displayed com.android.systemui/.recent.RecentsActivity: +179ms
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+I/ActivityManager(  564): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 624
+D/dalvikvm(  564): GC_FOR_ALLOC freed 884K, 26% free 9883K/13256K, paused 5ms, total 5ms
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+W/InputMethodManagerService(  564): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@528ce280 (uid=10007 pid=624)
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1247K, 29% free 9512K/13256K, paused 7ms, total 7ms
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1155K, 29% free 9505K/13256K, paused 6ms, total 6ms
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm(  624): GC_FOR_ALLOC freed 1767K, 16% free 15538K/18472K, paused 3ms, total 3ms
+I/ActivityManager(  564): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity (has extras)} from pid 624
+W/EGL_genymotion(  624): eglSurfaceAttrib not implemented
+W/InputMethodManagerService(  564): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@5295faa8 (uid=10061 pid=3028)
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+I/ActivityManager(  564): START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 624
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1210K, 29% free 9512K/13256K, paused 7ms, total 7ms
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+W/InputMethodManagerService(  564): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@528ce280 (uid=10007 pid=624)
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+W/EGL_genymotion( 3028): eglSurfaceAttrib not implemented
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1210K, 29% free 9517K/13256K, paused 13ms, total 13ms
+D/        (  564): HostConnection::get() New Host Connection established 0xb9499460, tid 665
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm(  624): GC_FOR_ALLOC freed 2093K, 17% free 16317K/19588K, paused 2ms, total 2ms
+I/ActivityManager(  564): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from pid 564
+D/dalvikvm(  564): GC_FOR_ALLOC freed 1171K, 29% free 9509K/13256K, paused 5ms, total 6ms
+W/EGL_genymotion(  754): eglSurfaceAttrib not implemented
+E/dalvikvm(  564): JIT code cache full
+D/MobileDataStateTracker(  564): default: setPolicyDataEnable(enabled=true)
+D/dalvikvm(  754): GC_CONCURRENT freed 2842K, 27% free 9300K/12592K, paused 0ms+1ms, total 5ms
+D/dalvikvm(  754): WAIT_FOR_CONCURRENT_GC blocked 5ms
+I/dalvikvm-heap(  754): Grow heap (frag case) to 10.212MB for 1127532-byte allocation
+D/dalvikvm(  754): GC_FOR_ALLOC freed 502K, 28% free 9898K/13696K, paused 3ms, total 3ms
+W/EGL_genymotion(  754): eglSurfaceAttrib not implemented
+W/genymotion_audio(  195): out_write() limiting sleep time 1836243298 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836228332 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836213366 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836198400 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836183434 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836168468 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836153502 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836138536 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836123570 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836108604 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836093638 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836078672 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836063706 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836048741 to 39909
+W/InputMethodManagerService(  564): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@52910c44 attribute=null, token = android.os.BinderProxy@5295eb88
+W/genymotion_audio(  195): out_write() limiting sleep time 1836033775 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836018809 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1836003843 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835988877 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835973911 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835958945 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835943979 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835929013 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835914047 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835899081 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835884115 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835869149 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835854183 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835839217 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835824251 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835809285 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835794319 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835779353 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835764387 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835749421 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835734455 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835719489 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835704523 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835689557 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835674591 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835659625 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835644659 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835629693 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835614727 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835599761 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835584795 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835569829 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835554863 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835539897 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835524931 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835509965 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835494999 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835480033 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835465067 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835450101 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835435135 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835420169 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835405203 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835390237 to 39909
+W/genymotion_audio(  195): out_write() limiting sleep time 1835375271 to 39909
