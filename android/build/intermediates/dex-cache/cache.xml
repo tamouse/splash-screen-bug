@@ -399,21 +399,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/tamara.temple/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/tamara.temple/Personal/splash-screen-bug/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_acb13baa62b86ded19c6987dbbe41f772cbfc159.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/tamara.temple/Personal/splash-screen-bug/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/Users/tamara.temple/Personal/splash-screen-bug/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_c2a5457609b7147bdc895e3fc1edab5bbdc50296.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tamara.temple/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/tamara.temple/Personal/splash-screen-bug/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_acb13baa62b86ded19c6987dbbe41f772cbfc159.jar" />
     </item>
     <item
         is-multidex="false"
